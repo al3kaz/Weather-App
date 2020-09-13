@@ -11,6 +11,7 @@ const Result = (props) => {
       pressure,
       wind,
       city,
+      country,
    } = props.weather
 
    let content = null
@@ -21,8 +22,8 @@ const Result = (props) => {
       const sunsetTime = new Date(sunset * 1000).toLocaleTimeString()
 
       content = (
-         <div>
-            <em>Pogoda dla miasta <strong>{city}</strong></em>
+         <div className="">
+            <h3>Pogoda dla miasta <strong>{city}</strong> ({country})</h3>
             <p>dzień i godzina : {date}</p>
             <p>temperatura aktualna : {temp} °C</p>
             <p>wiatr : {wind} m/s</p>
@@ -30,13 +31,15 @@ const Result = (props) => {
             <p>Wschód słońca dzisiaj o : {sunriseTime}</p>
             <p>Zachód słońca dzisiaj o : {sunsetTime}</p>
          </div>
+
+
       )
    }
 
    return (
-      <div className="result">
+      <>
          {err ? `nie mamy w bazie ${city}` : content}
-      </div>
+      </>
    );
 }
 

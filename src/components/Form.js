@@ -1,11 +1,11 @@
 import React from 'react';
+import Forms from 'react-bootstrap/Form'
 
 const Form = (props) => {
    return (
-      <div>
-         <form onSubmit={props.handleCitySubmit}>
+      <div className="m-5">
+         <form className="form-control-lg">
             <input type="text" value={props.value} placeholder="Wpisz miasto" onChange={props.handleInputChange} />
-            <button>Wyszukaj miasta</button>
          </form>
       </div>
    );
