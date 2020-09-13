@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/al3kaz/Weather-App.git/static/css/main.bbea3685.chunk.css",
+    "main.js": "/al3kaz/Weather-App.git/static/js/main.486c0166.chunk.js",
+    "main.js.map": "/al3kaz/Weather-App.git/static/js/main.486c0166.chunk.js.map",
+    "runtime-main.js": "/al3kaz/Weather-App.git/static/js/runtime-main.ab535756.js",
+    "runtime-main.js.map": "/al3kaz/Weather-App.git/static/js/runtime-main.ab535756.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/al3kaz/Weather-App.git/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.3c1459a0.chunk.js": "/al3kaz/Weather-App.git/static/js/2.3c1459a0.chunk.js",
+    "static/js/2.3c1459a0.chunk.js.map": "/al3kaz/Weather-App.git/static/js/2.3c1459a0.chunk.js.map",
+    "index.html": "/al3kaz/Weather-App.git/index.html",
+    "precache-manifest.47d386f407181a8c01120e51ec2dd739.js": "/al3kaz/Weather-App.git/precache-manifest.47d386f407181a8c01120e51ec2dd739.js",
+    "service-worker.js": "/al3kaz/Weather-App.git/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/al3kaz/Weather-App.git/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.bbea3685.chunk.css.map": "/al3kaz/Weather-App.git/static/css/main.bbea3685.chunk.css.map",
+    "static/js/2.3c1459a0.chunk.js.LICENSE.txt": "/al3kaz/Weather-App.git/static/js/2.3c1459a0.chunk.js.LICENSE.txt",
+    "static/media/bg.jpg": "/al3kaz/Weather-App.git/static/media/bg.3817133d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab535756.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.3c1459a0.chunk.js",
+    "static/css/main.bbea3685.chunk.css",
+    "static/js/main.486c0166.chunk.js"
+  ]
+}
