@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
 import Form from './Form'
 import Result from './Result'
-import bg from '../img/bg.jpg'
+import './App.css';
 
 // Key to openweathermap API
 const APIkey = "ebaed3229a61b57e427ed497fba8baf1"
@@ -74,14 +73,12 @@ class App extends Component {
   render() {
 
     return (
-      <div className="container position-relative d-flex justify-content-center">
-        <div className="position-absolute">
-          <Form
-            value={this.state.value}
-            handleInputChange={this.handleInputChange} />
-          <Result weather={this.state} />
-        </div>
-      </div >);
+      <div className="container-sm wrapper">
+        <Form
+          value={this.state.value}
+          handleInputChange={this.handleInputChange} />
+        <Result weather={this.state} />
+      </div>);
   }
 }
 
