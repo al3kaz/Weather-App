@@ -73,12 +73,15 @@ class App extends Component {
   render() {
 
     return (
-      <div className="container-sm wrapper">
-        <Form
-          value={this.state.value}
-          handleInputChange={this.handleInputChange} />
-        <Result weather={this.state} />
-      </div>);
+      <div className="background">
+        <div className="container-sm wrapper">
+          <Form
+            value={this.state.value}
+            handleInputChange={this.handleInputChange} />
+          <Result weather={this.state} />
+        </div>
+      </div>
+    );
   }
 }
 
