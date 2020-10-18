@@ -74,7 +74,7 @@ class App extends Component {
 
     return (
       <div className="background">
-        <div className="container-sm wrapper">
+        <div className="wrapper">
           <Form
             value={this.state.value}
             handleInputChange={this.handleInputChange} />
